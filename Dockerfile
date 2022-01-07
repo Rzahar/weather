@@ -1,6 +1,6 @@
 FROM node:17-alpine3.14
 
-WORKDIR /weather
+WORKDIR /app
 
 COPY . .
 
