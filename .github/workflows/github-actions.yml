@@ -8,8 +8,6 @@ jobs:
     steps:
       - name: Récupération du repo
         uses: actions/checkout@v2
-      - name: installation npm
-        uses: npm i actions-workflow
       - name: Setup sur node.js
         uses: actions/setup-node@v2
         with:
