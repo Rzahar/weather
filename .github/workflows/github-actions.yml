@@ -1,0 +1,16 @@
+name: Workflow-TU
+on:
+  push:
+
+jobs:
+  tests-unitaires:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupération du repo
+        uses: actions/checkout@v2
+      - name: Setup sur node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 12.x
+      - name: Initialisation des tests
+        run: npm test
