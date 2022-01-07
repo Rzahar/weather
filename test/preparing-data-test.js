@@ -1,6 +1,6 @@
 /**
  * Created by alicia.sykes on 24/08/2015.
- * commentaire pour justifié le pull-reequest RZ 07/01/2022
+ * commentaire pour justifié le pull-request RZ 07/01/2022
  */
 
 /* Include testing tools */
