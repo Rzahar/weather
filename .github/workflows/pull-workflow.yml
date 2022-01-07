@@ -1,7 +1,7 @@
 name: test-global
 # Workflow qui construit les tests, construit image docker, qui push sur docker hub, le tout en  pull request
 on:
-  pull-request
+  pull-request:
 jobs:
   tests:
     runs-on: ubuntu-latest
