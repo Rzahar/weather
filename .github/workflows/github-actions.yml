@@ -11,6 +11,6 @@ jobs:
       - name: Setup sur node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 12.x
+          node-version: 16.x
       - name: Initialisation des tests
         run: npm test
